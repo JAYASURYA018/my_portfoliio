@@ -25,11 +25,13 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        <span>Skills</span>
+        <spane className="about">
+          I'm a MERN stack developer works with JavaScript 
           <br />
-          ispum is simpley dummy text of printing
+         Framework , Who is Familier with ReactJS for the 
+         <br />
+         FrontEnd UI Design and NodeJS for the BackEnd.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +48,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"FrontEnd"}
+            detail={"Html, Css, JavaScript, Bootstrap , ReactJS"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +60,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Database"}
+            detail={"MySql, MongoDB"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +72,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"BackEnd"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "NodeJS , Express"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
